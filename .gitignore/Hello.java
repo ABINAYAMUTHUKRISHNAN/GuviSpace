@@ -11,5 +11,7 @@ public class Hello {
 	for(i=0;i<5;i++)
 	  System.out.println(s);
 	}
+	else
+	 System.out.println("Invalid");
 	}
 }
