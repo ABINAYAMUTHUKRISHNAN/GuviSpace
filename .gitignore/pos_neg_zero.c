@@ -1,3 +1,6 @@
+#include<stdio.h>
+void main()
+{
 int num;
 printf("Enter a number:");
 scanf("%d",&num);
@@ -9,3 +12,4 @@ else if(num==0)
   printf("The number is Zero");
 else
   printf("INVALID");
+}
