@@ -1,11 +1,11 @@
-int n;
+int num;
 printf("Enter a number:");
-scanf("%d",&n);
-if(n>=1)
+scanf("%d",&num);
+if(num>=1)
   printf("%d is Positive",n);
-else if(n<0)
+else if(num<0)
   printf("%d is Negative",n);
-else if(n==0)
+else if(num==0)
   printf("The number is Zero");
 else
   printf("INVALID");
