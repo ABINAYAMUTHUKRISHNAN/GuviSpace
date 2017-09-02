@@ -6,4 +6,6 @@ if(n>=1)
 else if(n<0)
   printf("%d is Negative",n);
 else if(n==0)
-  printf(The number is Zero)
+  printf("The number is Zero");
+else
+  printf("INVALID");
